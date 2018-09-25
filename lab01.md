@@ -5,7 +5,8 @@ title: 从苹果发表会与youtube的关系看搜索引擎算法
 
 ## [](#header-1) 从苹果发布会与youtube的关系看搜索引擎数据分析
 　　前导：LinusTechTips (以下简称LTT) 是一个youtube频道，9/14 LTT发布了一部新影片，标题很有意思—**iPhone Xs，Youtube FORCED me to cover it.**
-　　连结：[https://www.youtube.com/watch?v=5HNnXJMJkY0](https://www.youtube.com/watch?v=5HNnXJMJkY0 "https://www.youtube.com/watch?v=5HNnXJMJkY0")
+　　
+连结：[https://www.youtube.com/watch?v=5HNnXJMJkY0](https://www.youtube.com/watch?v=5HNnXJMJkY0 "https://www.youtube.com/watch?v=5HNnXJMJkY0")
 
 　　内容是有关苹果的新手机 iPhone Xs 与为何一个从来不在拿到实机前做测评的youtuber，因为什么原因而做起了测评，问题的源头又是什么？
 ### [](#header-2) 苹果发布会引起"科技类"视频观看人数减少
