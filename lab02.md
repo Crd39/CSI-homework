@@ -22,7 +22,7 @@ title: construct使用心得及动图展示
 简单来讲就是这些，construct简单的地方在于不用自己编写函数语句等等、以简单易理解的表格式排列让指令变得白话。这次实验让我感受到了不同的体验。
 
 以下是gif图
-![img]](https://github.com/Crd39/CSI-homework/blob/gh-pages/images/game.gif)
+![img](https://github.com/Crd39/CSI-homework/blob/gh-pages/images/game.gif)
 ## construct给我带来的启示
     
 这次实验，construct给我带来了许多不同的想法，例如:<br>
