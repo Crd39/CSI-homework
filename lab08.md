@@ -8,13 +8,15 @@ Gameplay:结合电流急急棒与迷宫的玩法，方向键控制角色，若�
 ps. 勇者的hitbox只有一个小点，迷宫的hitbox是可视的黑线。
 
 ##游戏设计
-Object: 勇者
-Attribute:![](images/hero.jpg),位于玩家鼠标指向处
-Collaborator：迷宫 Events & Actions: 按住左键控制 & 碰到迷宫销毁自己
+Object: 勇者<br />
+Attribute:![](images/hero.jpg),位于玩家入口处 <br />
+Collaborator：迷宫 <br/>
+Events & Actions: 按住方向键控制 & 碰到迷宫销毁自己<br />
 
-Object: 迷宫
-Attribute:![](images/maze.jpg),位于底图层
-Collaborator：勇者 Events & Actions: 与勇者接触时销毁勇者
+Object: 迷宫<br />
+Attribute:![](images/maze.jpg),位于底图层<br />
+Collaborator：勇者 <br />
+Events & Actions: 与勇者接触时销毁勇者<br />
  
 
 成品gif
