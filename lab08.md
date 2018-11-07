@@ -16,3 +16,6 @@ Object: 迷宫
 Attribute:![](images/maze.jpg),位于底图层
 Collaborator：勇者 Events & Actions: 与勇者接触时销毁勇者
  
+
+成品gif
+![img](images/game2.gif)
