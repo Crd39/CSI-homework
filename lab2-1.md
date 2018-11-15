@@ -1,1 +1,1 @@
-pdf:https://github.com/Crd39/CSI-homework/blob/gh-pages/lab2-1.pdf
+pdf:https://github.com/Crd39/CSI-homework/blob/gh-pages/lab2-1.pdf 
