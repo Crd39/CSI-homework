@@ -120,7 +120,7 @@ int gameover(){
 }
 
 void snakeMove(int x, int y, int eat){
-	//更改蛇身与蛇头的目标 
+	//更改蛇身与蛇头的坐标 
 	if(!eat){
 		map[snakeY[0]][snakeX[0]] = BLANK_CELL;
 		int i;

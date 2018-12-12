@@ -14,16 +14,17 @@
 
 //snakeMove(moveX,moveY)
 void snakeMove(int, int, int);
-//汜傖妘昜
+//生成实物
 void putMoney(void);
-//岆瘁勛善妘昜
+//确认是否吃到食物
 int eatFood(int, int);
-//湖荂map
+//打印map
 void output(char map[][12]);
-//岆瘁湛傖蚔牁賦旰腔沭璃
+//确认是否达成游戏结束的条件
 int gameover(void);
-//樵隅狟祭
+//决定下一步的方向
 char whereGoNext(int, int, int, int);
+
 char map[12][12] = {
 		"************",
 		"*XXXXH     *",
@@ -40,18 +41,18 @@ char map[12][12] = {
 int snakeX[SNAKE_MAX_LENGTH] = {1,2,3,4,5};
 int snakeY[SNAKE_MAX_LENGTH] = {1,1,1,1,1};
 int snakeLength = 5;
-//0測桶華芞羶妘昜
+//0代表地图没食物
 int foodFlag = 0;
 int foodX = 0;
 int foodY = 0;
 
 int main(){
-	//湔揣黍腔偌瑩
+	//存储方向
 	char movement;
 
-	//吨瞳梓妎
+	//胜利标识
 	int winFlag = 0;
-	//湖荂
+	//打印
 	output(map);
 	putMoney();
 
@@ -106,7 +107,7 @@ void output(char map[][12]){
 int gameover(){
 	int flag = 0;
 	int i;
-    //彴芛癲善旯极麼族寀蚔牁賦旰
+    //若蛇头碰到身体或墙壁则游戏结束
 	for(i=0;i<snakeLength-1;i++){
 		if(snakeX[snakeLength-1] == snakeX[i] && snakeY[snakeLength-1] == snakeY[i]){
 			flag = 1;
@@ -123,7 +124,7 @@ int gameover(){
 }
 
 void snakeMove(int x, int y, int eat){
-	//載蜊彴旯迵彴芛腔醴梓
+	//更改蛇身与蛇头的坐标
 	if(!eat){
 		map[snakeY[0]][snakeX[0]] = BLANK_CELL;
 		int i;
